@@ -367,6 +367,7 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
       padding: 0; } }
+    
 
 .no-gutters {
   margin: 0;
@@ -761,6 +762,7 @@ body.offcanvas {
     right: 0;
     width: 10px;
     height: 10px;
+    transition: width .3s ease;
     content: '';
     background: #2c98f0;
     -webkit-border-radius: 50%;
